@@ -14,7 +14,7 @@ if(k < 0)
 }
     else
 {
-    Console.WriteLine(k < 0 ? "третьей цифры нет" : (num % (int)Math.Pow(10, k + 1) / (int)Math.Pow(10, k)).ToString());
+Console.WriteLine(((num % (int)Math.Pow(10, k + 1) / (int)Math.Pow(10, k)).ToString()));
 }
 
 
